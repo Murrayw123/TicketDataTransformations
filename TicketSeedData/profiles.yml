@@ -1,0 +1,27 @@
+models:
+  TicketSeedData:
+    schema: public
+    models:
+      - category
+      - product
+      - product_category
+      - product_attributes
+      - product_attributes_product
+      - store
+      - store_product
+      - store_product_offer
+      - product_offer
+      - category_offer
+
+TicketSeedData:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      port: 5432
+      user: postgres
+      password: password
+      dbname: postgres
+      schema: public
+

@@ -1,0 +1,26 @@
+
+
+============================== 2023-03-03 22:30:42.060251 | 1dc08d71-15a0-4113-a7b1-1bc6517ad80e ==============================
+[0m22:30:42.060251 [info ] [MainThread]: Running with dbt=1.4.4
+[0m22:30:42.061167 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/murray/PycharmProjects/dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'project_name': 'TicketSeedData', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m22:30:42.061270 [debug] [MainThread]: Tracking: tracking
+[0m22:30:42.062157 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f73aa1f3550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f73aa1f2e00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f73aa1f33d0>]}
+[0m22:30:42.062718 [debug] [MainThread]: Starter project path: /home/murray/PycharmProjects/dbt/venv/lib/python3.10/site-packages/dbt/include/starter_project
+[0m22:30:46.458391 [info ] [MainThread]: 
+Your new dbt project "TicketSeedData" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:30:46.458704 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f73aa1f2e00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f73aa1f13c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f73aa1f3760>]}
+[0m22:30:46.458951 [debug] [MainThread]: Flushing usage events

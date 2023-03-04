@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: airbyte_raw_data
+    database: postgres
+    schema: public
+    tables:
+      - name: processed_api_uploads
